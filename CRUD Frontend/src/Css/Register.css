@@ -1,0 +1,64 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px; /* Added max-width */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .login-header h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .focus-label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 14px;
+    color: #999;
+    transition: all 0.2s ease-out;
+  }
+  
+  .form-control:focus + .focus-label,
+  .form-control:not(:placeholder-shown) + .focus-label {
+    top: -10px;
+    font-size: 12px;
+    color: #33cabb;
+  }
+  
+  .err-text {
+    font-size: 12px;
+    color: #dc3545;
+  }
+  
+  .register-btn {
+    width: 100%;
+  }
+  
+  .dont-have {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .dont-have .forgot-link {
+    color: #33cabb;
+    text-decoration: none;
+  }
+  
+  .dont-have .forgot-link:hover {
+    text-decoration: underline;
+  }
+  
+  .is-invalid {
+    border-color: #dc3545 !important;
+  }
+  
